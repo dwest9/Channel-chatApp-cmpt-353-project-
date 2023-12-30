@@ -1,0 +1,71 @@
+/* david emmanuel doe869 */
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(21, 145, 99, 0.747);
+}
+
+/* Login Card */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.login-card h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* Form Group */
+.login-card .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Input Field */
+.login-card .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Label */
+.login-card .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button */
+.login-card .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.login-card .forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .login-card {
+    padding: 15px;
+  }
+}

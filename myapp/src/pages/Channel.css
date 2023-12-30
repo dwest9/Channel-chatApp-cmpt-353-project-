@@ -1,0 +1,148 @@
+/* david emmanuel doe869 */
+
+/* Container for the entire channel page */
+.channel-container {
+  display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: rgba(21, 145, 99, 0.747);
+}
+
+.create-channel {
+  margin-bottom: 20px;
+}
+
+.create-channel input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.create-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #4c56af;
+}
+
+.channel-list {
+  list-style: none;
+  padding: 0;
+}
+
+.channel-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.channel-list li:hover {
+  background-color: #ddd;
+}
+
+.channel-list-item.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Main content styles */
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
+
+/* Messages container styles */
+.messages-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: rgba(21, 145, 99, 0.747);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Message styles */
+.message {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message info styles */
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+}
+
+.timestamp {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Message content styles */
+.message-content {
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Message text area */
+.message-input textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Post button */
+.message-input button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Reply button refinement */
+.message button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message button:hover {
+  background-color: #0056b3;
+}
