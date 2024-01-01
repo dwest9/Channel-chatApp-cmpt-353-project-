@@ -1,3 +1,6 @@
+## Youtube link of the project description
+https://youtu.be/UYnObLOBzPU
+
 # Getting Started with server and database
 
 ## Available Scripts
